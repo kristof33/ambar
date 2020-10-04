@@ -19,7 +19,15 @@ Ambar defines a new way to implement a full-text document search into yor workfl
 
 Increase Docker's available memory
 
+### Mac
+
 ![Docker Desktop](https://raw.githubusercontent.com/land007/ambar/master/image/087F8C40-A159-4E7B-B0CC-F658C769DEBF.png)
+
+### Linux
+
+```bash
+sudo sysctl -w vm.max_map_count=262144
+```
 
 Run the following docker command
 
