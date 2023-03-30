@@ -39,7 +39,7 @@ Or run the following docker-compose command
 
 ```bash
 #first step（Download compose yml）
-wget https://raw.githubusercontent.com/land007/ambar/master/docker-compose.yml
+wget https://raw.githubusercontent.com/kristof33/ambar/master/docker-compose.yml
 
 #third step（Clear docker environment variables）
 unset ${!DOCKER_*}
