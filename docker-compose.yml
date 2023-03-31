@@ -11,7 +11,7 @@ services:
     privileged: true
     networks:
       - internal_network
-    image: land007/ambar-mongodb:latest
+    image: kristof33/ambar-mongodb:latest
     environment:
       - cacheSizeGB=2
       - LANIP=172.19.0.1
